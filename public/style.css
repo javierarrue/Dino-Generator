@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Bungee Inline', cursive;
+}
+
+*,
+*::before, 
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: center / cover url('img/jungla.jpg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.generator{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.dino-img{
+    max-height: 200px;
+    max-width:100%;
+    border-radius: 0 0 1rem 1rem;
+}
+
+h1{
+    margin-bottom: 0;
+}
+h4{
+   margin-bottom: 0;
+   margin-top: 5px;
+   background:white;
+   color: rgb(41, 41, 41);
+   border-radius: 1rem 1rem 0 0;
+} 
+
+a:link {
+    color: hsl(0, 0%, 100%);
+}
+a:visited {
+    color: hsl(240, 100%, 50%);
+}
+
+button{
+    background:hsl(82, 98%, 44%);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor:pointer;
+    transition: padding 0.5s, background 0.5s;
+    border:none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(41, 41, 41);
+}
+
+button:hover{
+    padding: 0.5rem 1.1rem;
+    background:hsl(82, 100%, 50%);
+}
